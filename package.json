@@ -1,0 +1,31 @@
+{
+  "name": "custom-server-express",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon server.js --watch server.js --watch routes.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-styled-components": "^1.5.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.14.0",
+    "lodash": "^4.17.10",
+    "next": "latest",
+    "next-routes": "^1.4.1",
+    "prismic-dom": "^2.1.0",
+    "prismic-javascript": "^1.5.0-beta.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-images": "^0.5.17",
+    "react-powerplug": "^0.1.5",
+    "react-stack-grid": "^0.7.1",
+    "recompose": "^0.27.0",
+    "styled-components": "^3.2.6",
+    "url-join": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
