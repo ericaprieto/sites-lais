@@ -11,7 +11,7 @@
     "babel-plugin-styled-components": "^1.5.1",
     "dotenv": "^5.0.1",
     "express": "^4.14.0",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.21",
     "next": "latest",
     "next-routes": "^1.4.1",
     "prismic-dom": "^2.1.0",
